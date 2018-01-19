@@ -34,5 +34,5 @@ public class ClienteService {
 	public void update(Cliente cliente) {
 		repository.saveAndFlush(cliente);
 	}
-	
+
 }
